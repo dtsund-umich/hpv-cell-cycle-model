@@ -1,0 +1,22 @@
+xaxis  label "Time"
+yaxis  label "Concentration"
+s0 legend  "Cyclin E complex"
+s1 legend  "Cyclin A complex"
+s2 legend  "Cyclin B complex"
+world 400, 0, 500, 0.7
+xaxis  label char size 1.750000
+xaxis  ticklabel char size 1.750000
+xaxis  ticklabel offset spec
+xaxis  ticklabel offset 0.000000 , 0.030000
+yaxis  label char size 1.750000
+yaxis  label place 0.000000, 0.115000
+yaxis  tick major 0.1
+yaxis  ticklabel char size 1.750000
+yaxis  ticklabel offset spec
+yaxis  ticklabel offset 0.000000 , 0.025000
+legend char size 1.750000
+s0 line linewidth 2.0
+s1 line linewidth 2.0
+s2 line linewidth 2.0
+map color 3 to (0, 139, 0), "green4"
+legend 0.71, 0.85

@@ -1,0 +1,25 @@
+xaxis  label "Time"
+yaxis  label "Concentration"
+s0 legend  "pRB"
+s1 legend  "pRB-E2F"
+s2 legend  "pRBp"
+s3 legend  "pRBp-E2F"
+s4 legend  "pRBpp"
+world 400, 0, 500, 30
+xaxis  label char size 1.750000
+xaxis  ticklabel char size 1.750000
+xaxis  ticklabel offset spec
+xaxis  ticklabel offset 0.000000 , 0.030000
+yaxis  label char size 1.750000
+yaxis  label place 0.000000, 0.115000
+yaxis  ticklabel char size 1.750000
+yaxis  ticklabel offset spec
+yaxis  ticklabel offset 0.000000 , 0.025000
+legend char size 1.750000
+s0 line linewidth 2.0
+s1 line linewidth 2.0
+s2 line linewidth 2.0
+s3 line linewidth 2.0
+s4 line linewidth 2.0
+map color 3 to (0, 139, 0), "green4"
+legend 0.8555, 0.85
